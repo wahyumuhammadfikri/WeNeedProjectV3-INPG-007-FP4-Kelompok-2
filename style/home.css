@@ -1,10 +1,9 @@
 .container-fluid {
-    background-image: url(/wm/img/background.jpg);
+    background: linear-gradient(20deg, rgba(8, 32, 50, 0.3), rgba(8, 32, 50, 0.7)), url(../img/background.jpg), #082032;;
     background-repeat: no-repeat, repeat;
     background-size: cover;
      height: 100vh;
 }
-
 .container .weather-area {
    height: 80vh;
     border-radius: 20px;
@@ -25,24 +24,20 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     flex-direction: row;
     align-items: center;
 }
-
 .city {
     font-size: 55px;
     text-align: center;
     font-family: 'Electrolize', sans-serif;
 }
-
 .wheather img {
     margin-left: 130px;
     height: 140px;
     width: 170px;
 }
-
 .description {
     font-size: 30px;
     font-weight: bold;
 }
-
 .weather-area .card {
     background-color: #fff;
     border: none;
