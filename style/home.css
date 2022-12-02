@@ -1,0 +1,72 @@
+.container-fluid {
+    background-image: url(/wm/img/background.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+     height: 100vh;
+}
+
+.container .weather-area {
+   height: 80vh;
+    border-radius: 20px;
+    background: rgba( 255, 255, 255, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.weather-area .card {
+    height: 100px;
+    margin: 10px;
+}
+.wheather {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.city {
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.wheather img {
+    margin-left: 130px;
+    height: 140px;
+    width: 170px;
+}
+
+.description {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.weather-area .card {
+    background-color: #fff;
+    border: none;
+}
+.weather-area .card span {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.weather-area .card span i {
+    color: blue;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.weather-area .card p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.weather-area .weather .day #dateTime ,
+.weather-area .weather .day  {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+}
