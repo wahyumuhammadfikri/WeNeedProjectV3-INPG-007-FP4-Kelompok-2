@@ -2,10 +2,10 @@
     background: linear-gradient(20deg, rgba(8, 32, 50, 0.3), rgba(8, 32, 50, 0.7)), url(../img/background.jpg), #082032;;
     background-repeat: no-repeat, repeat;
     background-size: cover;
-     height: 100vh;
+     height: 100%;
 }
 .container .weather-area {
-   height: 80vh;
+   height: 100%;
     border-radius: 20px;
     background: rgba( 255, 255, 255, 0.4 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
