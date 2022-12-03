@@ -4,6 +4,29 @@
     background-size: cover;
      height: 100%;
 }
+.btn{
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ef32d9, #89fffd);
+    color: white;
+    position: relative;
+}
+.btn::after{
+    content: '';
+    position: absolute;
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ef32d9, #89fffd);
+    color: white;
+    z-index: -1;
+    filter: blur(0px);
+    transition: 0.5s ease;
+}
+.btn:hover::after{
+    filter: blur(15px);
+}
 .container .weather-area {
    height: 100%;
     border-radius: 20px;
